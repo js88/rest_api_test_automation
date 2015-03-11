@@ -1,0 +1,9 @@
+{
+    "require": {
+		"behat/behat":"~3.0,>=3.0.5"
+    },
+    "minimum-stability": "dev",
+     "config": {
+        "bin-dir": "bin/"
+    }
+}
