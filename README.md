@@ -7,7 +7,7 @@ Sonar is a service to store and normalize information about places from differen
   -Foursquare
 In the following example using Behat we can test those endpoints using REST requests.
 
-# Install the project
+# Installing the project
 
 _Clone this repository: 
 
