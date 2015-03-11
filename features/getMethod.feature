@@ -137,19 +137,7 @@ I want to test get method for sonar api
         | PROVIDER_NAME | PROVIDER_PLACE_ID         | 
         | facebook      |  100524972391             |
 
-    Scenario Outline: Get a place after removing it
-        Given that the providerName is <PROVIDER_NAME> 
-        And that the providerPlaceId is <PROVIDER_PLACE_ID>
-        And that the sonar object does not exist
-        And that the sonar object already exists
-        And that the sonar object does not exist
-        When I want to GET a place from provider's information
-        Then the response status code should be 404
-        
-        Examples:
-        | PROVIDER_NAME  | PROVIDER_PLACE_ID        |
-        |  facebook      |  100524972391            |
-        |  foursquare    |  4b9f9c79f964a520c22e37e3| 
+  
 
     Scenario Outline: Get a place after creating it
         Given that the providerName is <PROVIDER_NAME> 
