@@ -12,7 +12,7 @@ In the following example using Behat we can test those endpoints using REST requ
 
 # Installing the project
 
-_Clone this repository: 
+_Clone this repository: https://github.com/js88/sonarApi_Test
 
 _Execute: $ curl http://getcomposer.org/installer | php
 
