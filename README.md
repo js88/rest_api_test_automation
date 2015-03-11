@@ -22,7 +22,4 @@ _Install Behat: $ php composer.phar install
 
 _ $bin/behat
 
-# Get a HTML Report
-
-_ $ behat --format html --out report.html
 
